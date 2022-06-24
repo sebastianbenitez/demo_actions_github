@@ -1,0 +1,11 @@
+name: Test
+
+on:
+  push:
+    branch: [main]
+    
+jobs:
+  start-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - run echo "hola mundo"
