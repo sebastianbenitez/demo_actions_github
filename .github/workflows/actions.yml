@@ -2,10 +2,10 @@ name: Test
 
 on:
   push:
-    branch: [main]
+    branches: [main]
     
 jobs:
   start-pipeline:
     runs-on: ubuntu-latest
     steps:
-    - run echo "hola mundo"
+    - run: echo "hola mundo"
