@@ -8,4 +8,5 @@ jobs:
   start-pipeline:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hola mundo"
+      - uses: actions/checkout@v2
+      - run: echo "hola mundo"
