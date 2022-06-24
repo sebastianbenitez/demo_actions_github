@@ -12,3 +12,4 @@ jobs:
       - run: |
           ls -la
           echo "hola mundo"
+          echo $SECRET
